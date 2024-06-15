@@ -1,6 +1,6 @@
 # LibreNMS/NetBox Sync
 
-Uses LibreNMS polling data to create and update IP Address records in NetBox.
+Script which uses LibreNMS polling data to create and update IP Address records in NetBox. My initial use case didn't involve device objects, so custom fields for IPs are used to populate polling data. In the future this will update devices as well.
 
 ![image](flowchart.png)
 
