@@ -46,7 +46,7 @@ mv ~/netbox-lnms-sync/config-example.py ~/netbox-lnms-sync/config.py
 cd ~/netbox-lnms-sync
 python3 -m venv venv
 source venv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 5. Optionally, create a cron task to run the script on a schedule. For example, to run it nightly at 4AM: 
